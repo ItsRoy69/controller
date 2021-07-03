@@ -140,10 +140,10 @@ button:hover {
   width: 90%;
 }
 
-.add-btn img{
+.add-btn img {
   width: 35px;
   margin-bottom: 5px;
-  
+
 }
 
 .add-btn {
@@ -200,29 +200,33 @@ button:hover {
     transition: 0.5s;
   }
 
-  .row{
+  .row {
     flex-direction: column-reverse;
     margin: 50px 0;
   }
 
-  .col-2{
+  .col-2 {
     flex-basis: 100%;
     margin-bottom: 50px;
   }
-  .col-2 .controller{
+
+  .col-2 .controller {
     width: 77%;
   }
-  .color-box{
+
+  .color-box {
     transform: translateX(75px);
   }
 
-  .col-1{
+  .col-1 {
     flex-basis: 100%;
-    }
-    .col-1 h2{
+  }
+
+  .col-1 h2 {
     font-size: 35px;
   }
-  .col-1 h3{
+
+  .col-1 h3 {
     font-size: 15px;
   }
 
@@ -232,13 +236,21 @@ button:hover {
 .social-links img {
   height: 13px;
   margin: 20px;
-  }
+}
 
 .social-links {
   text-align: center;
-
+  padding-top: 100px;
 
 }
-em{
+
+.fab {
+  font-size: 20px;
+  color: #ff4b93;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+em {
   text-align: center;
-    }
+}
